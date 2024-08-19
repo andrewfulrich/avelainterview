@@ -1,0 +1,16 @@
+INSERT INTO movies (title, likes) VALUES 
+('Chariots of Fire', 1),
+('Ben Hur',3),
+('The Bridge on the River Kwai', 5),
+('True Grit', 4),
+('Gattaca', 7),
+('The Neverending Story',3),
+('Rocky',5),
+('Predator',2),
+('The Sound of Music',1),
+('An American Tail',3),
+('The Great Escape',4),
+('Return of the Jedi',2),
+('The Last Unicorn',1),
+('Flight of Dragons',4),
+('Willow',5);

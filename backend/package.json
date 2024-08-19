@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "nodemonConfig": {
+    "verbose": true,
+    "legacyWatch": true,
+    "delay": "3000"
+  },
+  "author": "Andrew Ulrich",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "koa": "^2.15.3",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^12.0.1",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
